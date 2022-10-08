@@ -1,0 +1,97 @@
+.itemContainer{
+    display: block;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    
+    transition: all 0.1s linear 0s;
+    -moz-transition: all 0.1s linear 0s;
+    -webkit-transition: all 0.1s linear 0s;
+    -ms-transition: all 0.1s linear 0s;
+    -o-transition: all 0.1s linear 0s;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    background: #006289;
+    height: 110px;
+    border-radius: 8px;
+    position: relative;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.itemContainer:hover {
+    box-shadow: 1px 2px 4px 1px #ccc;
+    background: red;
+}
+
+
+.ic {
+    position: absolute;
+    width: 53px;
+    height: 83px;
+    top: -11px;
+    left: 10px;
+    z-index: 999;
+}
+
+.content {
+    padding-top: 8px;
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.content h3 {
+    margin: 0;
+    padding: 0;
+    font-family: Baomoi;
+    font-size: 27px;
+    line-height: 18px;
+    margin: 0;
+    padding: 5px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #FFF;
+}
+
+.content a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.content>div {
+    display: flex;
+    justify-content: center;
+}
+
+.content>div>p strong {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.content>div>p{
+    color: #fff;
+    font-family: Baomoi;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 25px;
+    margin: 0;
+    text-decoration: none;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .content>div>p.resp{
+        font-size: 16px;
+    }
+    .content h3 {
+        font-size: 23px;
+    }
+
+    .content>div>p strong{
+        font-size: 36px;
+    }
+}

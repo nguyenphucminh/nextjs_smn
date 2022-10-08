@@ -1,0 +1,67 @@
+.meeting {
+  position: relative;
+}
+
+.meeting:hover > button {
+  opacity: 1;
+}
+
+.box_doctor {
+  width: 100%;
+  padding: 10px;
+  background: #fff;
+  max-width: 539px;
+  margin: 0 auto;
+}
+
+.icon {
+  color: #333;
+  font-size: 33px;
+  line-height: 34px;
+  font-weight: lighter;
+}
+
+.btn_prev,
+.btn_next {
+  background: rgba(221, 221, 221, 0.77);
+  border-radius: 90%;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+  z-index: 99999;
+  top: 47%;
+  left: 92px;
+  border: 1px solid #fafafa;
+  box-shadow: 0px 0px 9px 0px #ddd;
+}
+
+.btn_next {
+  right: 89px !important;
+  left: auto;
+}
+
+.btn_prev:hover,
+.btn_next:hover {
+  background: rgba(255, 0, 0, 0.57);
+}
+
+.btn_prev:hover > i,
+.btn_next:hover > i {
+  color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  .box_doctor {
+    max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .box_doctor {
+    max-width: 440px;
+    display: block !important;
+  }
+}
