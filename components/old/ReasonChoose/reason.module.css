@@ -1,0 +1,92 @@
+.title_reason {
+  background: #f1805f;
+  margin: 0;
+  padding: 30px 0;
+}
+
+.title_reason > h2 {
+  color: #ffffff;
+  font-family: Baomoi;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-decoration: none;
+  position: relative;
+  margin: 0;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.title_reason > h2::after {
+  position: absolute;
+  width: 20px;
+  height: 3px;
+  margin-left: -10px;
+  left: 50%;
+  background: #fff;
+  content: "";
+  bottom: 0;
+}
+
+.detail {
+  margin-top: 86px;
+}
+
+.item_collection {
+  display: block;
+  margin: 15px 0px !important;
+  text-align: center;
+  position: relative;
+}
+
+.item_collection > h3 {
+  display: block;
+  color: #333333;
+  font-family: Baomoi;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+  padding: 17px 0 8px;
+  height: 30px;
+}
+
+.item_collection > figcaption {
+  position: absolute;
+  bottom: 0;
+  transition: all 0.5s;
+  z-index: 99;
+  padding: 0 4px;
+  overflow: hidden;
+  color: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  opacity: 0;
+}
+
+.item_collection > figcaption > h4 {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  font-size: 16px;
+  line-height: 31px;
+  padding-top: 2px;
+}
+
+.item_collection:hover > figcaption {
+  opacity: 1;
+}
+
+.description > ul {
+  min-height: 154px;
+}
+
+.description > ul > li {
+  display: block;
+  color: #fff;
+  font-family: Baomoi;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  margin: 0;
+  padding: 5px 0;
+}

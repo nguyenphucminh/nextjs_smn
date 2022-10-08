@@ -1,0 +1,32 @@
+.top-header{
+    background: #006289;
+}
+
+.top-header p {
+    color: #fff;
+    padding: 8px 0;
+}
+
+p.phoneNumber {
+    display: inline-block;
+}
+
+.top-header strong{
+    font-weight: bold;
+}
+
+.top-header a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.ht {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ht img {
+    width: 33px;
+    margin-left: 5px;
+}

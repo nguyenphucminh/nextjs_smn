@@ -1,0 +1,38 @@
+.container {
+    height: 100%;
+}
+
+.item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container .slick-list {
+    height: 100%;
+}
+
+.item-container img {
+    /* width: 100%; */
+    cursor: pointer;
+    position: relative;
+    max-width: 100%;
+}
+
+.item-container h3 {
+    font-size: 19px;
+    font-weight: bold;
+    color: #000;
+    font-family: Baomoi;
+}
+
+.item-container .des p{
+    font-size: 16px;
+    line-height: 18px;
+    font-family: Baomoi;
+}
+
+.container:hover button {
+    opacity: 1;
+}
+
