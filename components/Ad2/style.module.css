@@ -1,0 +1,35 @@
+.hero {
+    margin: 80px 0 20px 0;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    padding:110px;
+    text-align: center;
+}
+.text
+{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.hero::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+.button
+{
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}

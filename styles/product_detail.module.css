@@ -1,0 +1,136 @@
+/* Tên Sản Phẩm */
+.title
+{
+    color: black !important;
+    padding-bottom: 10px;
+    font-size: 33px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.title::after
+{
+    margin-top: 5px;
+    content: "";
+    background: black;
+    display:block;
+    height: 3px;
+    width: 170px;
+}
+.about
+{
+    padding-top: 50px;
+    padding-bottom: 200px;
+    background-color: #F0F5F8!important;
+}
+/* Đánh giá sản phẩm */
+.product_link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    background: #256eff;
+    color: #fff;
+    padding: 0 0.3rem;
+    transition: all 0.5s ease;
+}
+.product_link:hover{
+    opacity: 0.9;
+}
+.product_rating{
+    color: #ffc107;
+}
+.product_rating span{
+    font-weight: 600;
+    color: #252525;
+}
+
+/* Giá */
+.product_price
+{
+    margin-top: 20px;
+}
+.product_price p
+{
+    padding: 0 ;
+    font-weight: 700;
+}
+.last_price span{
+    color: #f64749;
+    text-decoration: line-through;
+}
+.new_price span{
+    color: #256eff;
+}
+/* Chi tiết sản phẩm */
+.product_detail
+{
+    padding-top: 1rem;
+}
+.product_detail h2{
+    text-transform: capitalize;
+    color: #12263a;
+}
+.product_detail p{
+    font-size: 0.9rem;
+    padding: 0.3rem;
+    opacity: 0.8;
+    font-size: 18px;
+}
+.product_detail ul{
+    margin: 1rem 0;
+    font-size: 0.9rem;
+}
+.product_detail ul li{
+    list-style: none;
+    margin: 0.4rem 0;
+    font-weight: 600;
+    opacity: 0.9;
+}
+.product_detail ul li span{
+    font-weight: 400;
+}
+
+/* Nút đặt hàng */
+.purchase_info{
+    margin: 1.5rem 0;
+}
+.purchase_info input,
+.purchase_info .btn{
+    border: 1.5px solid #ddd;
+    border-radius: 25px;
+    text-align: center;
+    padding: 0.45rem 0.8rem;
+    outline: 0;
+    margin-right: 0.2rem;
+    margin-bottom: 1rem;
+}
+.purchase_info input{
+    width: 70px;
+}
+.purchase_info .btn{
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 30px;
+
+}
+.purchase_info .btn i{
+    margin: 5px ;
+}
+.purchase_info .btn:last-of-type{
+    background: #256eff;
+}
+.purchase_info .btn:hover{
+    opacity: 0.9;
+    background: #f64749;
+    transition-delay: 100ms;
+}
+@media (max-width: 768px) {
+    .title
+    {
+        padding-top: 20px;
+        font-size: 24px;
+    }
+}

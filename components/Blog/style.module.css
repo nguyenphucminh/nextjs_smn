@@ -1,0 +1,26 @@
+
+.about
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #F0F5F8!important;
+}
+.about .btn 
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.thread
+{
+    width:200px;
+    border: 2px solid black;
+    
+}
+.name
+{
+    width:200px;
+}
+.info_img
+{
+    height: 450px;
+}
